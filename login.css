@@ -1,0 +1,168 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  color: #000;
+  background-color: #f5f5f2;
+  font-family: "DM Sans", sans-serif;
+}
+img {
+  max-width: 100%;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+ul {
+  list-style: none;
+}
+header {
+  display: flex;
+  gap: 1rem;
+  padding: 15px 70px;
+  align-items: center;
+}
+.hero-container {
+  display: flex;
+  padding: 0 120px;
+  gap: 3rem;
+  
+}
+.left-container {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+.left-image {
+  text-align: center;
+}
+.left-info {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.left-container h2 {
+  font-size: 40px;
+  font-weight: 500;
+  text-align: center;
+  max-width: 500px;
+}
+.left-container p {
+  font-size: 14px;
+  font-weight: 400;
+  text-align: center;
+  max-width: 465px;
+  color: #000000;
+}
+.left-btn {
+  padding: 13px 23px;
+  border-radius: 10px;
+  background: #053582;
+  font-size: 14px;
+  font-weight: 700;
+  margin-top: 10px;
+  color: #ffffff;
+  border: none;
+}
+.right-container {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  box-shadow: 3px -5px 40px 0px #cdcdd41a;
+  max-width: 540px;
+  max-height: 730px;
+  border-radius: 20px;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 50px;
+  background-color: #ffffff;
+  position: relative;
+  gap: 2.3rem;
+}
+/* .none{
+  border: 1px solid red;
+} */
+.right-info {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.right-info h2 {
+  font-size: 28px;
+  font-weight: 700;
+  text-align: left;
+}
+.right-info p {
+  font-size: 12px;
+  font-weight: 400;
+  text-align: left;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+::placeholder {
+  font-size: 14px;
+  font-weight: 400;
+  text-align: left;
+}
+[type] {
+  padding: 15px 20px;
+  border: 1px solid #e2e2ea;
+  border-radius: 10px;
+  background: #fff;
+}
+.input {
+  display: flex;
+  gap: 1rem;
+}
+.company-name {
+  flex: 1;
+}
+.last-name {
+  flex: 1;
+}
+.img-eye {
+  position: absolute;
+  bottom: 214px;
+  right: 65px;
+  color: #92929d;
+  width: 20px;
+  height: 20px;
+}
+.end-info {
+  font-size: 14px;
+  font-weight: 400;
+  text-align: left;
+}
+.end {
+  display: flex;
+  gap: 100px;
+  align-items: center;
+  margin-left: 80px;
+}
+.pro{
+  max-width: 400px;
+}
+.join {
+  color: #696974;
+  font-size: 14px;
+  font-weight: 400;
+}
+.register {
+  color: #053582;
+}
+.end-btn {
+  padding: 13px 23px;
+  border-radius: 10px;
+  background: #053582;
+  font-size: 14px;
+  font-weight: 700;
+  color: #ffffff;
+  border: none;
+}
