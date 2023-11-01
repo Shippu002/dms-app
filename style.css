@@ -19,6 +19,7 @@ ul {
   list-style: none;
 }
 header {
+  font-family: 'Roboto', sans-serif;
   display: flex;
   gap: 1rem;
   padding: 15px 70px;
@@ -81,6 +82,7 @@ header {
   padding: 50px;
   background-color: #ffffff;
   position: relative;
+   /* margin-bottom: 300px; */
 }
 .right-info1 {
   display: flex;
@@ -99,6 +101,7 @@ form {
   display: flex;
   flex-direction: column;
   padding: 40px 0;
+  max-width: 100%;
 }
 ::placeholder {
   font-size: 18px;
@@ -154,6 +157,13 @@ form {
   font-weight: 700;
   color: #ffffff;
   border: none;
+}
+.link{
+ margin-top: 10px;
+ padding: 20px;
+}
+[href]{
+  
 }
 @media (max-width: 1100px) {
   .right-container {
@@ -308,5 +318,8 @@ form {
     margin-top: 30px;
     gap: 46px;
     margin-bottom: 10px;
+  }
+  .link{
+    font-size: 10px;
   }
 }
